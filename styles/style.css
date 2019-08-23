@@ -1,0 +1,57 @@
+*, *:before , *:after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	width: 100%;
+	min-height: 70px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+
+	width: 400px;
+}
+
+nav a {
+	padding: 5px 10px;
+
+	font-family: -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue,
+    sans-serif;
+    font-size: 16px;
+	font-weight: 400;
+
+	text-decoration: none;
+
+	box-shadow: inset 0 1px 0 transparent;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	color: #676767;
+}
+
+nav a:hover {
+	box-shadow: inset 0 1px 0 rgba(136, 211, 251, 0.75);
+	border: 1px solid #1784d1;
+	background-image: linear-gradient(to top, #1f84e7 0%, #37b3f8 100%);
+	border-radius: 5px;
+	color: white;
+}
