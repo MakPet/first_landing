@@ -135,6 +135,7 @@ nav a:hover {
 .places h3 {
     font-size: 22px;
     font-weight: 300;
+    text-align: center;
 
     margin: 5px;
 
@@ -183,7 +184,7 @@ nav a:hover {
 
 .places-item-row {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
     min-width: 430px;
 }
@@ -195,7 +196,7 @@ nav a:hover {
     justify-content: space-around;
     align-items: center;
     
-    min-width: 70%; 
+    min-width: 80%; 
     }
 }
 
