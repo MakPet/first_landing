@@ -3,6 +3,8 @@
 }
 
 body {
+	margin: 0;
+
 	font-family: -apple-system,
     BlinkMacSystemFont,
     Segoe UI,
@@ -63,6 +65,7 @@ nav a:hover {
 	align-items: center;
 
 	min-height: 530px;
+	width: 100%;
 
 	background-image: url(../img/PromoImg.png);
 	background-repeat: no-repeat;
@@ -99,4 +102,53 @@ nav a:hover {
 	background-image: linear-gradient(to top, #34ae22 0%, #6ed258 100%);
 	border-radius: 7px;
 	color: white;
+}
+
+.places h3 {
+	font-size: 22px;
+	font-weight: 300;
+
+	margin: 5px;
+
+	color: #868686;
+}
+
+.places-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	min-height: 300px;
+
+	background-color: #ececec;
+}
+
+.places {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+
+	min-width: 480px;
+	min-height: 245px;
+	
+	box-shadow: 0 5px 0 0 #51c03d;
+	border-radius: 5px;
+	background-color: #ffffff;
+}
+
+.places-item-row {
+	display: flex;
+	justify-content: space-between;
+
+	min-width: 430px;
+}
+
+.places-item p {
+	font-size: 14px;
+	font-weight: 300;
+	
+	margin: 8px 0;
+
+	color: #929292;
 }
