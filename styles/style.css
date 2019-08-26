@@ -186,11 +186,11 @@ nav a:hover {
 @media (max-width: 721px) {
   .places-item-row {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     
-    min-width: 70%;    
+    min-width: 70%; 
     }
 }
 
@@ -238,13 +238,11 @@ nav a:hover {
 
 @media (max-width: 721px) {
   .search-list {
-        display: flex;
-        
-        flex-direction: column;
-
-        justify-content: space-around;
-        align-items: center;
-        min-width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 90%;
     }
 }
 
