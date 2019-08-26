@@ -68,7 +68,7 @@ nav a:hover {
     min-height: 530px;
     
 
-    background: #676767 url("../img/PromoImg.png") no-repeat center;
+    background: #676767 url("../img/PromoImg.png") no-repeat;
     background-size: cover; 
 }
 
