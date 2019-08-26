@@ -63,13 +63,12 @@ nav a:hover {
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
-
-	min-height: 530px;
+	
 	width: 100%;
+	min-height: 530px;
+	
 
-	background-image: url(../img/PromoImg.png);
-	background-repeat: no-repeat;
-	background-position: center;
+	background: #676767 url("../img/PromoImg.png") no-repeat center;
 	background-size: cover; 
 }
 
@@ -84,7 +83,7 @@ nav a:hover {
 	color: white;
 }
 
-.many {
+.promo h2 span {
 	font-size: 48px;
 	font-weight: 300;
 	text-align: center;
@@ -119,6 +118,7 @@ nav a:hover {
 	align-items: center;
 
 	min-height: 300px;
+	width: 100%;
 
 	background-color: #ececec;
 }
@@ -151,4 +151,97 @@ nav a:hover {
 	margin: 8px 0;
 
 	color: #929292;
+}
+
+.search-for-places h3 {
+	font-size: 26px;
+	font-weight: 300;
+	line-height: 34px;
+
+	text-align: center;
+
+	color: #7e7c7c;
+}
+
+.search-for-places h3 span {
+	font-size: 22px;
+}
+
+.search-for-places {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+
+	background-color: #ececec;
+}
+
+.search-list {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	min-width: 760px;
+}
+
+.search-item {
+	display: flex;
+	flex-direction: column;
+
+	justify-content: space-between;
+	align-items: center;
+}
+
+.search-item p {
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 34px;
+
+	color: #7e7c7c;
+}
+
+.search-item-sites {
+	width: 135px;
+	height: 135px;
+	border-radius: 50%;
+
+	background-color: white;
+}
+
+.sites {
+	background: #ffffff url("../img/sprites.png") no-repeat 12px 12px;
+}
+
+.shopping {
+	background: #ffffff url("../img/sprites.png") no-repeat 16px -173px;
+}
+
+.photography {
+	background: #ffffff url("../img/sprites.png") no-repeat 21px -474px;
+}
+
+.find {
+	background: #ffffff url("../img/sprites.png") no-repeat 20px -328px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+	min-height: 30px;
+
+	background-color: #414141;
+}
+
+footer p {
+	margin: 0;
+
+	font-size: 14px;
+	font-weight: 300;
+
+	color: #ffffff;
 }
