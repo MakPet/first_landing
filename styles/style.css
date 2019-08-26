@@ -28,12 +28,30 @@ header {
     background: #F5F5F5;
 }
 
+@media (max-width: 721px) {
+  header {
+    flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 721px) {
+  header img {
+    margin: 5px 0;
+    }
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     width: 400px;
+}
+
+@media (max-width: 721px) {
+  header nav {
+    margin: 5px;
+    }
 }
 
 nav a {
@@ -103,6 +121,12 @@ nav a:hover {
     color: white;
 }
 
+@media (max-width: 721px) {
+  .promo a {
+    margin: 20px 0 160px 0;
+    }
+}
+
 .places h3 {
     font-size: 22px;
     font-weight: 300;
@@ -110,6 +134,12 @@ nav a:hover {
     margin: 5px;
 
     color: #868686;
+}
+
+@media (max-width: 721px) {
+  .places h3 {
+    margin: 15px;   
+    }
 }
 
 .places-wrapper {
@@ -140,11 +170,28 @@ nav a:hover {
     background-color: #ffffff;
 }
 
+@media (max-width: 721px) {
+  .places {
+    min-width: 100%;    
+    }
+}
+
 .places-item-row {
     display: flex;
     justify-content: space-between;
 
     min-width: 430px;
+}
+
+@media (max-width: 721px) {
+  .places-item-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    min-width: 70%;    
+    }
 }
 
 .places-item p {
@@ -187,6 +234,18 @@ nav a:hover {
     align-items: center;
 
     min-width: 760px;
+}
+
+@media (max-width: 721px) {
+  .search-list {
+        display: flex;
+        
+        flex-direction: column;
+
+        justify-content: space-around;
+        align-items: center;
+        min-width: 90%;
+    }
 }
 
 .search-item {
