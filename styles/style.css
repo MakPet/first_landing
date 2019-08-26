@@ -34,6 +34,11 @@ header {
     }
 }
 
+header img {
+    width: 175px;
+    height: 28px;
+}
+
 @media (max-width: 721px) {
   header img {
     margin: 5px 0;
@@ -191,6 +196,18 @@ nav a:hover {
     align-items: center;
     
     min-width: 70%; 
+    }
+}
+
+.places-item img {
+    width: 80px;
+    height: 50px;
+}
+
+@media (max-width: 721px) {
+  .places-item img {
+    width: 100px;
+    height: 70px;
     }
 }
 
